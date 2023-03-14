@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 /*
 font-family: 'Poppins', sans-serif;
-font-family: 'PT Serif', serif;
 */
 *{
 margin: 0;
 padding:0 ;
 box-sizing: border-box;
 }
+
 .colorFondo{
     background-color: #F0F2E5;
 }
@@ -107,37 +107,6 @@ height: 129px;
 text-align: center;
 line-height: 100px;
 margin-top: 50px;
-text-decoration: none;
-
-}
-.informaciona{
-    font-size: 30px;
-list-style: none;
-color:black ;
-font-family:'Poppins';
-float: right;
-padding: 20px;
-background-color: #D0CBC4;
-width: 629px;
-height: 129px;
-text-align: center;
-line-height: 100px;
-margin-top: 40px;
-text-decoration: none;
-}
-.preciosa{
-    font-size: 30px;
-list-style: none;
-color:black ;
-font-family:'Poppins';
-float: right;
-padding: 20px;
-background-color: #D0CBC4;
-width: 629px;
-height: 129px;
-text-align: center;
-line-height: 100px;
-margin-top: 40px;
 text-decoration: none;
 }
 .seccion-turnos{
@@ -293,16 +262,17 @@ text-align: center;
 margin-right: 40px;
 font-family:'Poppins';
 }
-h2:hover{
-color: rgb(192, 22, 22);
-}
+
 .info{
     text-align: center;
     font-size: 50px;
     font-family:'Poppins' ;
     line-height: 30px;
 }
-
+.trabalho{
+    margin-left: 50px;
+    list-style: none;
+}
 .info1{
 text-align: center;
 font-size: 50px;
@@ -313,18 +283,16 @@ font-family:'Poppins';
     margin-top: 90px;
     line-height: 80px;
     font-size: 30px;
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
 }
 .cuidado{
     margin-top: 90px;
     font-size: 30px;
-    font-family: 'PT Serif', serif;
-    text-align: center;
-    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    line-height: 70px;
 }
-h1:hover{
-    color: rgb(192, 22, 22);
-}
+
 .trabajos{
     font-size: 30px;
     font-family:'Poppins';
@@ -346,21 +314,107 @@ text-align: center;
     list-style: none;
     margin-bottom: 29px;
     margin-right: -50px;
-
 }
+.content-card{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin-left: 625px;
+    margin-top: 100px;
+}
+.content-card img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .7;
+    transition: .5s ease;
+}
+.content-card img:hover{
+    cursor: default;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #000000;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+    }
+
+    li{
+        list-style: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop */
+@media(max-width: 1024px){
+.contactoa{
+    width: 429px;
+height: 129px;
+text-align: center;
+}
+
+.main{
+    margin-left: 390px;
+}
+
+.imagen{
+    margin-left: 390px;
+}
+
+
+.content-card{
+    margin-left: 250px;
+}
+
+.info-contacto{
+    margin-left: -140px;
+}
+}
+
+
+
 /*tablet*/
 @media (max-width: 768px){
 
-.navbar{
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 .main{
     margin: 1px 230px;
 }
 .img{
 margin-left: 240px;
-margin-top: 120px;
+margin-top: 70px;
 width: 296px;
 height: 293px;
 }
@@ -378,8 +432,9 @@ margin-right: -40px;
 .header-informacion{
     margin-left: -525px;
 }
+
 .imagen{
-    margin-right: 500px;
+    margin-left: 750px;
 }
 .uñas{
     text-align: left;
@@ -388,19 +443,108 @@ margin-right: -40px;
     margin-left: 70px;
 }
 .info-contacto{
-    margin-left: -200px;
-    font-size: 15px;
+    margin-left: -270px;
+    font-size: 20px;
+}
+.content-card{
+    margin-left: 100px;
+}
+
+.contactoa{
+    width: 629px;
+height: 129px;
+text-align: center;
 }
 }
 
+.trabalho{
+    margin-left: 30px;
+}
 
 
 
+/* mobile */
 
+
+@media (max-width: 425px){
+
+.content-card{
+    margin-left: 0px;
+}
+
+.info-contacto{
+    font-size: 25px;
+}
+
+.dinero{
+    line-height: 50px;
+}
+
+.contactob{
+    margin-left: 40px;
+}
+.navbar{
+    font-size: 20px;
+    margin-left: 240px;
+    }
+.section{
+    width: 800px;
+}
+.main{
+    margin-left: 210px;
+}
+.img{
+    margin-left: 245px;
+}
+.grid{
+    margin-right: -356px;
+}
+.main{
+    margin-right: -220px;
+}
+.trabalho{
+    margin-left: 25px;
+}
+.info{
+    margin-left: 250px;
+}
+.info1{
+    margin-left: 300px;
+}
+
+.content-card{
+    margin-left: 100px;
+}
+.aviso{
+    margin-left: 200px;
+}
+.header-contacto{
+    width: 800px;
+}
+.info{
+    margin-left: 150px;
+}
+.info1{
+    margin-left: 180px;
+}
+.dinero{
+    margin-left: 500px;
+    margin-bottom: 200px;
+    line-height: 100px;
+}
+
+.cuidado{
+    line-height: 80px;
+}
+.header-informacion{
+    width: 1150px;
+}
+.imagen{
+    margin-left: 700px;
+}
+}
 
     /*mobile*/
-
-
 
     
     @media (max-width: 320px){
@@ -424,11 +568,8 @@ margin-right: -40px;
 .main{
     margin-right: -220px;
 }
-.contactob{
-margin-left: 60px;
-}
 .trabalho{
-    margin-left: 100px;
+    margin-left: 25px;
 }
 .info{
     margin-left: 250px;
@@ -441,3 +582,8 @@ margin-left: 60px;
 }
 
 }
+
+
+
+/* desktop */
+
