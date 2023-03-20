@@ -1,0 +1,22 @@
+@import "./base/reset.scss";
+@import "./layout/header.scss";
+@import "./layout/main.scss";
+@import "./layout/footer.scss";
+@import "./base/bgc.scss";
+@import "./layout/images.scss";
+@import "./utilities/mixin.scss";
+@import "./layout/volver.scss";
+@import "./utilities/buttons.scss";
+
+// media queries
+@import "./layout/desktop.scss";
+@import "./layout/tablet.scss";
+@import "./layout/cell.scss";
+
+
+
+
+
+// tipografia
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+

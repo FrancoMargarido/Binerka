@@ -1,0 +1,81 @@
+main{
+    ul{
+        li{  margin-left: 50px;
+            list-style: none;
+            a{
+                font-size: 30px;
+                font-family:'Poppins';
+                margin-left: 129px;
+                margin-top: 500px;
+                color: black;
+                text-decoration: none;
+                }
+            }
+        }
+        section{
+            display: grid;
+            grid-column: auto;
+            margin-top: -460px;
+            margin-left: 40px;
+            text-align: right;
+            list-style: none;
+            margin-bottom: 29px;
+        ul{    
+            li{
+                a{
+                    font-size: 30px;
+                    list-style: none;
+                    color:black ;
+                    font-family:'Poppins';
+                    padding: 20px;
+                    background-color: #D0CBC4;
+                    width: 629px;
+                    height: 129px;
+                    text-align: center;
+                    line-height: 100px;
+                    margin-top: 50px;
+                    text-decoration: none;
+                    float: right;
+                }
+            }
+        }
+    }
+    }
+    .contactos{
+        margin-top: 3%;
+        width: 1336px;
+        height: 88px;
+        text-align: center;
+        margin-left: 250px;
+    }
+    .uñas{
+        margin-top: 90px;
+        line-height: 80px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .info{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Poppins' ;
+    line-height: 30px; 
+}
+.info1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    font-family:'Poppins';
+    }
+    .cuidado{
+        margin-top: 90px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        line-height: 70px;
+    }
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}

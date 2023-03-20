@@ -1,0 +1,24 @@
+.header{
+    nav{
+        ul{
+            font-size: 25px;
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                font-family: 'Poppins' ;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+.navbar{
+    @include nav ($justify, $font, $align);
+}
+.contactob{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family:'Poppins';
+    list-style: none;
+}

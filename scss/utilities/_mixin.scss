@@ -1,0 +1,6 @@
+@mixin nav($justify, $align, $font,){
+    display: flex;
+    flex-direction: $align;
+    justify-content: $justify;
+    font-size: $font;
+}
