@@ -69,6 +69,9 @@ a:hover {
 h1 {
   text-align: center; }
 
+li {
+  list-style: none; }
+
 .img {
   width: 420px;
   height: 400px;
@@ -240,9 +243,6 @@ h1 {
     font-size: 25px; }
   .contactob {
     margin-left: 40px; }
-  .navbar, .contactob {
-    font-size: 20px;
-    margin-left: 240px; }
   .section {
     width: 800px; }
   .color {
@@ -280,21 +280,19 @@ h1 {
   .prices {
     margin-left: 180px; }
   .info {
-    width: 850px;
-    height: 700px;
-    margin-left: 340px; }
+    width: 750px;
+    height: 650px;
+    margin-left: 20px; }
   .trabalho {
     margin-left: 180px; }
-  .info {
-    margin-left: 50px;
-    width: 700px;
-    height: 650px; } }
+  .navbar, .contactob {
+    list-style: none;
+    margin-left: 40px; }
+    .navbar .contactoi, .contactob .contactoi {
+      margin-left: 300px; } }
 
 /*mobile*/
 @media (max-width: 320px) {
-  .navbar, .contactob {
-    font-size: 20px;
-    margin-left: 240px; }
   .section {
     width: 800px; }
   .main {
@@ -302,17 +300,17 @@ h1 {
   .img {
     margin-left: 245px; }
   .grid {
-    margin-right: -496px; }
+    margin-left: 66px; }
   .main {
     margin-right: -220px; }
   .trabalho {
-    margin-left: 25px; }
-  .info {
-    margin-left: 250px; }
-  .info1 {
-    margin-left: 300px; }
+    margin-left: 165px; }
   .header-informacion {
     width: 1600px; }
-  .info {
-    width: 250px;
-    height: 100px; } }
+  .infou .info {
+    width: 750px;
+    height: 700px; }
+  .navbar, .contactob {
+    margin-left: 30; }
+    .navbar .contactoi, .contactob .contactoi {
+      margin-left: 400px; } }

@@ -11,10 +11,6 @@
     .contactob{
         margin-left: 40px;
     }
-    .navbar{
-        font-size: 20px;
-        margin-left: 240px;
-        }
     .section{
         width: 800px;
     }
@@ -72,29 +68,26 @@
         margin-left: 180px;
     }
     .info{
-        width: 850px;
-        height: 700px;
-        margin-left: 340px;
+        width: 750px;
+        height: 650px;
+        margin-left: 20px;
     }
     .trabalho{
         margin-left: 180px; 
     }
-    .info{
-        margin-left: 50px;
-        width: 700px;
-        height: 650px;
+.navbar{
+    list-style: none;
+    margin-left: 40px;
+    .contactoi{
+        margin-left: 300px;
     }
+}
     }
     
         /*mobile*/
     
         
         @media (max-width: 320px){
-    
-    .navbar{
-        font-size: 20px;
-        margin-left: 240px;
-        }
     .section{
         width: 800px;
     }
@@ -105,27 +98,31 @@
         margin-left: 245px;
     }
     .grid{
-        margin-right: -496px;
+        margin-left: 66px;
     }
     .main{
         margin-right: -220px;
     }
     .trabalho{
-        margin-left: 25px;
-    }
-    .info{
-        margin-left: 250px;
-    }
-    .info1{
-        margin-left: 300px;
+        margin-left: 165px;
     }
     .header-informacion{
         width: 1600px;
     }
-    .info{
-        width: 250px;
-        height: 100px;
+    .infou{
+        .info{
+            width: 750px;
+            height: 700px;
+        }
     }
+
+    .navbar{
+        margin-left: 30;
+        .contactoi{
+            margin-left: 400px;
+        }
+    }
+
     }
     
     
