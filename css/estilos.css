@@ -5,38 +5,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-.header nav ul {
-  font-size: 25px;
-  display: flex;
-  justify-content: space-evenly; }
-  .header nav ul a {
-    font-family: 'Poppins';
-    text-decoration: none;
-    color: black; }
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 25px; }
-
-.contactob {
+a {
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  font-size: 25px;
-  color: black;
-  font-family: 'Poppins';
-  list-style: none; }
-
-main ul li {
-  margin-left: 50px;
-  list-style: none; }
-  main ul li a {
-    font-size: 30px;
-    font-family: 'Poppins';
-    margin-left: 129px;
-    margin-top: 500px;
-    color: black;
-    text-decoration: none; }
+  color: #000; }
 
 main section {
   display: grid;
@@ -46,55 +18,39 @@ main section {
   text-align: right;
   list-style: none;
   margin-bottom: 29px; }
-  main section ul li a {
-    font-size: 30px;
+  main section ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
     list-style: none;
-    color: black;
-    font-family: 'Poppins';
-    padding: 20px;
-    background-color: #D0CBC4;
-    width: 629px;
-    height: 129px;
-    text-align: center;
-    line-height: 100px;
-    margin-top: 50px;
-    text-decoration: none;
-    float: right; }
+    margin-bottom: 29px;
+    margin-right: -50px; }
+    main section ul li a {
+      font-size: 30px;
+      list-style: none;
+      color: #000;
+      font-family: "Poppins", sans-serif;
+      padding: 20px;
+      background-color: #D0CBC4;
+      width: 629px;
+      height: 129px;
+      text-align: center;
+      line-height: 100px;
+      margin-top: 50px;
+      text-decoration: none;
+      float: right; }
 
 .contactos {
-  margin-top: 3%;
-  width: 1336px;
-  height: 88px;
-  text-align: center;
-  margin-left: 250px; }
-
-.uñas {
-  margin-top: 90px;
-  line-height: 80px;
-  font-size: 30px;
-  font-family: 'Poppins', sans-serif; }
-
-.info {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Poppins';
-  line-height: 30px; }
-
-.info1 {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 50px;
-  font-family: 'Poppins'; }
-
-.cuidado {
-  margin-top: 90px;
-  font-size: 30px;
-  font-family: 'Poppins', sans-serif;
-  text-align: left;
-  line-height: 70px; }
+  margin-top: 100px; }
 
 h2 {
   text-align: center;
+  font-size: 25px; }
+
+.trabalho {
+  margin-left: 180px;
+  line-height: -30px;
+  list-style: none;
   font-size: 25px; }
 
 footer {
@@ -102,10 +58,16 @@ footer {
   text-align: center;
   font-size: 10px;
   font-family: Helvetica;
-  line-height: 400px; }
+  line-height: 4px; }
 
 body {
   background-color: #F0F2E5; }
+
+a:hover {
+  color: #002496; }
+
+h1 {
+  text-align: center; }
 
 .img {
   width: 420px;
@@ -149,6 +111,12 @@ body {
 .info {
   margin-left: 370px; }
 
+.navbar, .contactob {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 25px; }
+
 .volver {
   text-decoration: none;
   font-size: 25px;
@@ -177,6 +145,16 @@ body {
 
 .buttons a:hover {
   transform: scale(1.2); }
+
+@media (max-width: 1440px) {
+  .color .main {
+    margin-left: 600px; }
+  .info {
+    margin-left: 250px; }
+  .prices {
+    margin-left: 540px; }
+  .content-card {
+    margin-left: 500px; } }
 
 @media (max-width: 1024px) {
   .contactoa {
@@ -233,9 +211,10 @@ body {
     height: 129px;
     text-align: center; }
   .trabalho {
-    margin-left: 30px; }
+    margin-left: 170px;
+    margin-top: 20px; }
   .prices {
-    margin-left: 220px; }
+    margin-left: 180px; }
   .buttons {
     margin-left: -600px; }
   .color {
@@ -243,7 +222,7 @@ body {
     .color .main {
       margin-left: 250px; }
   .buttons {
-    margin-right: 420px; }
+    margin-left: 20px; }
   .derecha {
     margin-bottom: 400px; }
   .grid {
@@ -251,7 +230,8 @@ body {
     margin-left: -170px; }
   .info {
     width: 600px;
-    height: 450px; } }
+    height: 450px;
+    margin-left: 100px; } }
 
 @media (max-width: 425px) {
   .content-card {
@@ -260,7 +240,7 @@ body {
     font-size: 25px; }
   .contactob {
     margin-left: 40px; }
-  .navbar {
+  .navbar, .contactob {
     font-size: 20px;
     margin-left: 240px; }
   .section {
@@ -272,7 +252,7 @@ body {
   .img {
     margin-left: 245px; }
   .grid {
-    margin-right: -356px; }
+    margin-right: -314px; }
   .main {
     margin-right: -220px; }
   .trabalho {
@@ -302,11 +282,17 @@ body {
   .info {
     width: 850px;
     height: 700px;
-    margin-left: 340px; } }
+    margin-left: 340px; }
+  .trabalho {
+    margin-left: 180px; }
+  .info {
+    margin-left: 50px;
+    width: 700px;
+    height: 650px; } }
 
 /*mobile*/
 @media (max-width: 320px) {
-  .navbar {
+  .navbar, .contactob {
     font-size: 20px;
     margin-left: 240px; }
   .section {

@@ -2,11 +2,12 @@
 @import "./layout/header.scss";
 @import "./layout/main.scss";
 @import "./layout/footer.scss";
-@import "./base/bgc.scss";
+@import "./base/global.scss";
 @import "./layout/images.scss";
 @import "./utilities/mixin.scss";
 @import "./layout/volver.scss";
 @import "./utilities/buttons.scss";
+@import "./utilities/variables";
 
 // media queries
 @import "./layout/desktop.scss";

@@ -1,6 +1,15 @@
-@mixin nav($justify, $align, $font,){
+
+
+
+
+
+@mixin nav{
     display: flex;
-    flex-direction: $align;
-    justify-content: $justify;
-    font-size: $font;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.navbar{
+    @include nav;
 }
