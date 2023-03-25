@@ -243,8 +243,6 @@ li {
     font-size: 25px; }
   .contactob {
     margin-left: 40px; }
-  .section {
-    width: 800px; }
   .color {
     width: 800px; }
     .color .main {
@@ -257,20 +255,10 @@ li {
     margin-right: -220px; }
   .trabalho {
     margin-left: 25px; }
-  .info {
-    margin-left: 250px; }
-  .info1 {
-    margin-left: 300px; }
   .content-card {
     margin-left: 100px; }
   .aviso {
     margin-left: 200px; }
-  .header-contacto {
-    width: 800px; }
-  .info {
-    margin-left: 150px; }
-  .info1 {
-    margin-left: 180px; }
   .cuidado {
     line-height: 80px; }
   .header-informacion {
@@ -289,7 +277,10 @@ li {
     list-style: none;
     margin-left: 40px; }
     .navbar .contactoi, .contactob .contactoi {
-      margin-left: 300px; } }
+      margin-left: 300px; }
+  footer {
+    line-height: 10px;
+    text-align: center; } }
 
 /*mobile*/
 @media (max-width: 320px) {
@@ -313,4 +304,6 @@ li {
   .navbar, .contactob {
     margin-left: 30; }
     .navbar .contactoi, .contactob .contactoi {
-      margin-left: 400px; } }
+      margin-left: 400px; }
+  footer {
+    line-height: -10px; } }
