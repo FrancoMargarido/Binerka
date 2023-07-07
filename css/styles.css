@@ -3,6 +3,7 @@
 
 
 
+
 /*=============== VARIABLES CSS ===============*/
 :root {
 --header-height: 3.5rem;
@@ -82,15 +83,13 @@ input {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   color: var(--text-color);
   transition: .4s;
 }
 
 h1, h2, h3, h4 {
-  color: #555452;
   font-weight: var(--font-medium);
-  text-align: center;
 }
 
 ul {
@@ -99,7 +98,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 img{
@@ -117,6 +116,9 @@ button {
 
 footer {
     padding: 6.5rem 0 1rem;
+    position: absolute;
+    top: 50%;
+    text-align: center;
 }
 
 .home__center{
@@ -158,16 +160,111 @@ top: 355px;
     padding: 1rem 1.5rem;
   }
 
+  .button--gray-gap{
+    position: relative;
+    background-color: hsl(0, 0%, 75%);
+    color: var(--title-color);
+  }
 
+/* ============================HEADER==================================== */
 
-/* ============================BINERKA==================================== */
-
-.nav__logo{
-    text-transform: uppercase;
-    font-weight: var(--font-bold);
-    letter-spacing: 1px;
-    display: inline-flex;
-    align-items: center;
-    column-gap: .25rem;
+.home__blob{
+  height: 360px;
+  width: 270px;
+  fill: #F7E5F9 !important;
+  position: absolute;
+  right: 30px;
+}
+.home__img {
+  position: absolute;
+  top: 10;
+  right: 0;
+  width: 260px;
+}
+.nails{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
 }
 
+.background{
+  width: 50%;
+  height: 50%;
+  background-color: #F7E5F9;
+}
+/* =============================SECTION==================================== */
+
+section{
+  position: relative;
+  top: 350px;
+}
+
+.binerka__title{
+  font-size:var(--h1-font-size);
+  font-weight: var(--font-bold);
+  color: #000000;
+}
+
+.binerka__button{
+  margin-top: 20px;
+}
+
+.button--gray{
+  background-color: hsl(0, 0%, 75%);
+  color: var(--title-color);
+}
+
+.button--gray:hover{
+  background-color: hsl(0, 0%, 63%);
+}
+
+
+/* ==================================FOOTER========================================== */
+
+.otras__redes{
+  position: inherit;
+  margin-left: 60px;
+}
+
+.social__link{
+  color: #000000;
+  position: absolute;
+  left: 135px;
+  top: 150px;
+}
+
+
+
+
+/* ======================================RESPONSIVE======================================= */
+
+@media only screen and (min-width: 860px) {
+
+/* .home__img{
+  position: absolute;
+  right: 60px;
+  top: 40px;
+} */
+
+.responsive{
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+}
+
+.home__blob{
+  height: 450px;
+  width: 450px;
+}
+.nails{
+margin-left: -200px;
+width: 450px;
+height: 450px;
+}
+}
+
+
+@media only screen and (min-width: 1082px){
+
+}
